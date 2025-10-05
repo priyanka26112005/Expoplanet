@@ -1,0 +1,32 @@
+{
+  "feature_columns": [
+    "koi_period",
+    "koi_duration",
+    "koi_depth",
+    "koi_prad",
+    "koi_sma",
+    "koi_model_snr",
+    "koi_num_transits",
+    "koi_max_mult_ev",
+    "koi_max_sngle_ev",
+    "koi_teq",
+    "koi_insol",
+    "koi_steff",
+    "koi_slogg",
+    "koi_srad",
+    "koi_smass",
+    "koi_count",
+    "period_duration_ratio",
+    "depth_radius_ratio",
+    "log_snr",
+    "stellar_density",
+    "habitable_zone"
+  ],
+  "target_column": "koi_disposition",
+  "label_mapping": {
+    "CANDIDATE": 0,
+    "CONFIRMED": 1,
+    "FALSE POSITIVE": 2
+  },
+  "n_features": 21
+}
